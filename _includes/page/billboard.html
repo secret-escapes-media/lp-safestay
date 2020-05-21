@@ -1,0 +1,21 @@
+<div class="bg--white rounded--sm depth--sm">
+  <div class="img img--1-1 img--lg-16-9 img--xxl-21-9" style="background-image: url('{{site.img}}/{{page.id}}/banner.jpg')">
+    <div class="img__content">
+      <div class="container container--no-padding text--center">
+        <div class="billboard__icon">
+          <div class="img img--1-1" style="background-image: url({{site.img}}/{{page.id}}/shield-badge.svg)"></div>
+        </div>
+        {% if page.billboard.suptitle %}<div class="h--sub">{{suptitle}}</div>{% endif %}
+        <h1 class="h h--xxl">{{page.billboard.title}}</h1>
+        {% if page.billboard.subtitle %}<div class="h--sub">{{page.billboard.subtitle}}</div>{% endif %}
+      </div>
+    </div>
+  </div>
+  {% if page.billboard.content %}
+  <div class="boxpad--xl text--center">
+    <div class="width width--xl">
+    {{page.billboard.content}}
+    </div>
+  </div>
+  {% endif %}
+</div>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="137.7px" height="129.6px" viewBox="0 0 137.7 129.6" style="enable-background:new 0 0 137.7 129.6;" xml:space="preserve"
+	>
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10;}
+</style>
+<g>
+	<g>
+		<line class="st0" x1="19.6" y1="38.9" x2="32.2" y2="38.9"/>
+		<line class="st0" x1="40.9" y1="38.9" x2="76.3" y2="38.9"/>
+		<line class="st0" x1="36.3" y1="46.7" x2="76.3" y2="46.7"/>
+		<line class="st0" x1="19.6" y1="46.7" x2="28.9" y2="46.7"/>
+		<line class="st0" x1="19.6" y1="54.5" x2="28.9" y2="54.5"/>
+		<line class="st0" x1="35.6" y1="54.5" x2="46.2" y2="54.5"/>
+		<line class="st0" x1="19.6" y1="66.9" x2="30.9" y2="66.9"/>
+		<line class="st0" x1="37.4" y1="66.9" x2="76.3" y2="66.9"/>
+		<line class="st0" x1="19.6" y1="74.7" x2="34.9" y2="74.7"/>
+		<line class="st0" x1="42.6" y1="74.7" x2="76.3" y2="74.7"/>
+		<line class="st0" x1="19.6" y1="82.5" x2="41.5" y2="82.5"/>
+		<line class="st0" x1="19.6" y1="90.3" x2="43.1" y2="90.3"/>
+		<line class="st0" x1="19.6" y1="98.1" x2="76.3" y2="98.1"/>
+		<line class="st0" x1="19.6" y1="105.9" x2="59.7" y2="105.9"/>
+	</g>
+	<g>
+		<path class="st0" d="M87.8,31.9v-27c0-2.2-1.7-3.9-3.9-3.9H12.1C9.9,1,8.2,2.7,8.2,4.9v108.8c0,2.2,1.7,3.9,3.9,3.9h71.8
+			c2.2,0,3.9-1.7,3.9-3.9V79"/>
+		<path class="st0" d="M87.8,68.8V42"/>
+	</g>
+</g>
+<g>
+	<ellipse class="st1" cx="63.1" cy="55.4" rx="34.1" ry="34.1"/>
+	<ellipse class="st0" cx="63.1" cy="55.4" rx="28.1" ry="28.1"/>
+	<path class="st1" d="M87.2,79.6l5.5,5.5"/>
+	<path class="st1" d="M131.9,122.7l-1.6,1.6c-1.5,1.5-3.9,1.5-5.5,0L91.9,91.4c-1.5-1.5-1.5-3.9,0-5.5l1.6-1.6
+		c1.5-1.5,3.9-1.5,5.5,0l32.9,32.9C133.4,118.6,133.4,121.1,131.9,122.7z"/>
+</g>
+<rect x="19.6" y="11.8" class="st0" width="28.4" height="6.8"/>
+</svg>

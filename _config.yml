@@ -1,0 +1,22 @@
+# Site settings
+title: Secret Escapes
+locale: uk
+
+description: >
+  We are delighted to be welcoming you back with inspiring travel deals. However, as we all remain concerned about COVID-19, the following 'Stay Safe' policies have been put in place to offer you reassurance about travel after lockdown
+
+# file paths
+url:     "http://mp.secretescapes.com" # the base hostname & protocol for your site
+baseurl: "/uk/2020/stay-safe" # the subpath of your site, e.g. /blog/
+img:     "/uk/2020/stay-safe/_assets/img"
+css:     "/uk/2020/stay-safe/_assets/css"
+js:      "/uk/2020/stay-safe/_assets/js"
+
+
+# Build settings
+markdown: kramdown
+exclude: [node_modules, gulpfile.js, package.json, package-lock.json, js/script.js]
+keep_files: [_assets]
+sass:
+    sass_dir: css
+    style: compressed
