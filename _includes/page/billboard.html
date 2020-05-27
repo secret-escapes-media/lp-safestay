@@ -6,8 +6,8 @@
           <div class="img img--1-1" style="background-image: url({{site.img}}/{{page.id}}/shield-badge.svg)"></div>
         </div>
         {% if page.billboard.suptitle %}<div class="h--sub">{{suptitle}}</div>{% endif %}
-        <h1 class="h h--xxl">{{page.billboard.title}}</h1>
-        {% if page.billboard.subtitle %}<div class="h--sub">{{page.billboard.subtitle}}</div>{% endif %}
+        {{page.billboard.title}}
+        {% if page.billboard.subtitle %}<div class="h--sub text--medium">{{page.billboard.subtitle}}</div>{% endif %}
       </div>
     </div>
   </div>
