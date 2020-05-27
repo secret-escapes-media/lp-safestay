@@ -2,6 +2,9 @@
 in-partnership: In Zusammenarbeit mit
 
 core-site: https://www.secretescapes.de/aktuelle-angebote
+core-favourites:
+  link: https://www.secretescapes.de/meine-favoriten
+  label: Meine Favoriten
 core-nav:
   - link: https://www.secretescapes.de/aktuelle-angebote
     label: Aktuelle Angebote
@@ -9,6 +12,7 @@ core-nav:
     label: Reisekategorien
   - link: https://www.secretescapes.de/geschenkgutscheine
     label: Gutscheine
+faq: https://www.secretescapes.de/faq
 
 social:
   - link: http://www.facebook.com/SecretEscapes.de

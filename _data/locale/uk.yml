@@ -2,6 +2,9 @@
 in-partnership: In partnership with
 
 core-site: https://www.secretescapes.com/current-sales
+core-favourites:
+  link: https://www.secretescapes.com/my-favourites
+  label: My favourites
 core-nav:
   - link: https://www.secretescapes.com/current-sales
     label: Current Sales
@@ -9,6 +12,7 @@ core-nav:
     label: Spa
   - link: https://www.secretescapes.com/vouchers-offer
     label: Gift vouchers
+faq: https://www.secretescapes.com/faq
 
 social:
   - link: http://www.facebook.com/SecretEscapes

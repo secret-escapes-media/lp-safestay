@@ -3,9 +3,12 @@
 .billboard {
   &__icon {
     width: 30%;
-    max-width: 80px;
+    max-width: 50px;
     margin: auto;
     margin-bottom: $s2;
+    @include bp($lg){
+      max-width: 80px;
+    }
   }
 }
 
@@ -25,7 +28,7 @@
       &:before { padding-top: 100%; }
     }
     @include bp($xxxl){
-      &:before { padding-top: 83.333%; }
+      &:before { padding-top: 75%; }
     }
   }
   &--sm {
@@ -36,7 +39,7 @@
       &:before { padding-top: 100%; }
     }
     @include bp($xxxl){
-      &:before { padding-top: 125%; }
+      &:before { padding-top: 116.667%; }
     }
   }
   &__icon {
@@ -55,7 +58,7 @@
       bottom: 0;
       z-index: $z-content-upper;
       display: flex;
-      align-items: center;
+      align-items: flex-start;
       justify-content: center;
     }
   }

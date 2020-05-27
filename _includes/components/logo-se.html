@@ -1,3 +1,4 @@
-<a id="track-se-logo{{include.placement | prepend: '-'}}" class="logo logo--se{% if include.small %} logo--se-sm{% endif %}" href="{{site.data.locale.[site.locale].core-site}}">
+{% assign locale = site.data.locale.[page.locale] %}
+<a id="track-se-logo{{include.placement | prepend: '-'}}" class="logo logo--se{% if include.small %} logo--se-sm{% endif %}" href="{{locale.core-site}}">
   <img src="{{site.img}}/logo/secret-escapes.svg" alt="Secret Escapes logo">
 </a>

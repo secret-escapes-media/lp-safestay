@@ -27,7 +27,7 @@ function browserSyncServe() {
     server: {
       baseDir: '_site/',
       routes: {
-        '/uk/2020/stay-safe': '_site/'
+        '/uk/2020/safe-stay-policy': '_site/'
       }
     }
   });

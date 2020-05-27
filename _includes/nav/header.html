@@ -21,7 +21,7 @@
         {% include components/logo-partner.html placement="header" %}
       </div>
       {% else %}
-        <a class="favourites" href="https://www.secretescapes.com/my-favourites">My favourites</a>
+        <a class="favourites" href="{{locale.core-favourites.link}}">{{locale.core-favourites.label}}</a>
       {% endif %}
     </div>
   </div>
@@ -40,10 +40,12 @@
       {% include nav/nav-list.html block="mobile-nav__list" %}
     </div>
 
+    {% if site.partner %}
     <div class="mobile-nav__bottom">
       <!-- client logo bottom -->
       {% include components/logo-partner.html placement="mobile-nav" %}
     </div>
+    {% endif %}
 
   </div>
 </header>
