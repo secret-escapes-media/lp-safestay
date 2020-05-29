@@ -1,57 +1,59 @@
 ---
 layout: default
 id: stay-safe
-locale: de
+locale: uk
 
 
-title: Unsere Versprechen, für Sie zu sorgen
+title: Our SafeStay Policy
 
 billboard:
   title: >
-    <h1 class="h h--lg">Unsere Versprechen, für Sie zu sorgen</h1>
-  subtitle: Secret Escapes unterstützt Sie beim Reisen mit Zuversicht
+    <h1 class="h h--xxl"><span class="text--light">Our</span> SafeStay <span class="text--light">Policy</span></h1>
+  subtitle: Secret Escapes helps you travel with confidence
   content: >
-    <p class="p--xxl">Wir freuen uns, Sie wieder mit inspirierenden Angeboten begrüßen zu dürfen. Da mit der Corona-Pandemie jedoch nach wie vor einige Unsicherheiten einhergehen, haben wir Sicherheitsgrundlagen für ein sorgenfreies Reisen nach den Ausgangsbeschränkungen entwickelt.</p>
+    <p class="p--xxl">We are delighted to be welcoming you back with inspiring travel deals. However, as we all remain concerned about COVID-19, the following 'SafeStay' policies have been put in place to offer you reassurance about travel after lockdown</p>
 
+
+items-title: "How we’re taking care of every trip:"
 
 
 large-items:
 
   - id: policy
-    title: Gesund bleiben
-    content: Als Teil unserer Sicherheitsgrundlagen erfüllt jedes unserer Hotels die von den örtlichen Behörden erlassenen Vorschriften. Damit gehen möglicherweise einige Veränderungen einher, die im Sinne Ihrer Gesundheit und Ihres Wohlbefindens jedoch unerlässlich sind
+    title: Local guidelines
+    content: As part of our 'SafeStay' policy, we are working with our hotels to ensure that they comply with the public health regulations as laid down by their local authorities This could mean that some things need to be different for a while, but it is essential that your safety and wellbeing remains the top priority
 
   - id: refundable
-    title: 100 % erstattungsfähig
-    content: Als Reaktion auf die anhaltenden Reisebeschränkungen bieten wir Ihnen nun eine Reihe von vollständig erstattungsfähigen Angeboten, die Sie bis zu 8 Tagen vor Abreise aus beliebigen Gründen stornieren können. Das bedeutet, dass Sie mit Zuversicht im Voraus buchen können und dabei trotzdem flexibel bleiben, falls sich Ihre Pläne ändern
+    title: Refundable
+    content: In response to ongoing travel uncertainty, we have a new range of fully refundable deals that you can cancel up to 8 days before departure, for any reason. This means you can book ahead with confidence and stay flexible if plans change
 
 small-items:
 
   - id: best-price
-    title: Unsere Bestpreis-Garantie
-    content: Unsere Angebote sind nach wie vor die preisgünstigsten auf dem Markt. Wir sind dafür bekannt, unseren Mitgliedern attraktive Angebote zu unschlagbaren Preisen zu machen – das gilt selbstverständlich auch für unsere erstattungsfähigen Angebote
+    title: Best price
+    content: Our offers continue to be the best priced on the market.  We have built our reputation on offering our members great deals and our prices remain unbeatable, even on our refundable offers
 
   - id: handpicked
-    title: Handverlesen
-    content: Wir haben unsere Hotelpartner stets mit größter Sorgfalt ausgewählt – und das soll auch so bleiben. Unsere Standards sollen nach wie vor den Erwartungen unserer Mitglieder gerecht werden
+    title: Handpicked
+    content: We have always picked our hotel partners carefully and we continue to hand-pick hotels to keep our standards up to our members expectations
 
   - id: transparency
-    title: Lückenlose Transparenz
-    content: Sollten Kontaktbeschränkungen und Hygienebestimmungen gewisse Reiseziele beeinflussen, weisen wir Sie in unseren Angeboten darauf hin. Da Hotels ihre Richtlinien jedoch kontinuierlich weiterentwickeln, empfehlen wir Ihnen, sich vorab mit Ihrem Hotel in Verbindung zu setzen. So wissen Sie ganz konkret, was Sie während Ihres Aufenthaltes erwartet
+    title: Transparency
+    content: Wherever social distancing and COVID19 plans affect our deals, we are transparent about it in our offer summaries. However, as hotels evolve their policies over time, we encourage you to contact your hotel, so you know exactly what to expect during your stay
 
 
 
 deals-banner:
-  title: Entdecken Sie jetzt unsere erstattungsfähigen Angebote
+  title: View our selection of refundable deals now
   content:
-  cta: Zu den Angeboten
+  cta: View deals
 
 
 
 faq:
-  title: Häufig gestellte Fragen
-  content: Erhalten Sie in unseren FAQs weitere Informationen darüber, wie wir Ihnen gemeinsam mit unseren Hotelpartnern sicheres Reisen ermöglichen
-  cta: Weitere Informationen
+  title: Frequently asked questions
+  content: Read our FAQs for more information on what we’re doing with our hotel partners to help you travel safely
+  cta: Read more
 
 
 
@@ -63,6 +65,10 @@ faq:
 <div class="container vpad--lg">
   {% include page/billboard.html %}
 
+  <div class="space--xxl"></div>
+  <div class="text--center">
+  <h2 class="h h--sm">{{page.items-title}}</h2>
+  </div>
   <div class="space--lg"></div>
 
   <div class="row">
@@ -70,7 +76,7 @@ faq:
     <div class="col col--6">
       <div class="bg--white depth--sm rounded--sm card card--lg">
         <div class="card__content">
-          <div class="boxpad--md">
+          <div class="vpad--lg hpad--md">
             <img class="card__icon" src="{{site.img}}/{{page.id}}/{{item.id}}.svg" alt="{{item.title}} icon">
 
             <h3 class="h h--xs">{{item.title}}</h3>
@@ -84,10 +90,10 @@ faq:
     <div class="col col--6 col--xxxl-4">
       <div class="bg--white depth--sm rounded--sm card card--sm">
         <div class="card__content">
-          <div class="boxpad--md">
+          <div class="vpad--lg hpad--md">
             <img class="card__icon" src="{{site.img}}/{{page.id}}/{{item.id}}.svg" alt="{{item.title}} icon">
 
-            <h3 class="h h--xxs">{{item.title}}</h3>
+            <h3 class="h h--xs">{{item.title}}</h3>
             <p>{{item.content}}</p>
           </div>
         </div>
@@ -113,7 +119,7 @@ faq:
 
   <div class="space--xxxl"></div>
 
-  <div class="width width--xl text--center">
+  <div class="text--center">
     <h3 class="h h--lg">{{page.faq.title}}</h3>
     <p class="p--xxl">{{page.faq.content}}</p>
     <div class="space--sm"></div>
