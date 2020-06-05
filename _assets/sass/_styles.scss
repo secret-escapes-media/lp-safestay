@@ -1,5 +1,12 @@
 // general styles for the project that wouldn't be a reuseable component
 
+.hideApp {
+  body.fromApp & { display: none; }
+}
+
+
+
+
 .billboard {
   &__icon {
     width: 30%;
@@ -33,9 +40,4 @@
   &__content {
     text-align: center;
   }
-}
-
-#dealsBanner {
-  display: block;
-  body.fromApp & { display: none; }
 }

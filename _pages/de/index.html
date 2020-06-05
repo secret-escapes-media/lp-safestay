@@ -98,26 +98,24 @@ faq:
   {% endfor %}
   </div>
 
-  <div id="dealsBanner">
-    <div class="space--xxxl"></div>
+  <div class="space--xxxl hideApp"></div>
 
-    <div class="img img--1-1 img--lg-3-2 img--xxl-21-9 depth--sm rounded--sm" style="background-image: url({{site.img}}/{{page.id}}/deals.jpg);">
-      <a href="{{locale.core-site}}" class="img__link"></a>
-      <div class="img__content">
-        <div class="width width--lg boxpad--lg text--center">
-          <h3 class="h h--lg">{{page.deals-banner.title}}</h3>
-          {% if page.deals-banner.content %}<p class="p--xl">{{page.deals-banner.content}}</p>{% endif %}
-          <div class="space--sm"></div>
-          <a href="{{locale.core-site}}" class="btn btn--primary">{{page.deals-banner.cta}}</a>
-        </div>
+  <div class="hideApp img img--1-1 img--lg-3-2 img--xxl-21-9 depth--sm rounded--sm" style="background-image: url({{site.img}}/{{page.id}}/deals.jpg);">
+    <a href="{{locale.core-site}}" class="img__link"></a>
+    <div class="img__content">
+      <div class="width width--lg boxpad--lg text--center">
+        <h3 class="h h--lg">{{page.deals-banner.title}}</h3>
+        {% if page.deals-banner.content %}<p class="p--xl">{{page.deals-banner.content}}</p>{% endif %}
+        <div class="space--sm"></div>
+        <a href="{{locale.core-site}}" class="btn btn--primary">{{page.deals-banner.cta}}</a>
       </div>
-      <div class="img__overlay"></div>
     </div>
+    <div class="img__overlay"></div>
   </div>
 
-  <div class="space--xxxl"></div>
+  <div class="space--xxxl hideApp"></div>
 
-  <div class="width width--xl text--center">
+  <div class="width width--xl text--center hideApp">
     <h3 class="h h--lg">{{page.faq.title}}</h3>
     <p class="p--xxl">{{page.faq.content}}</p>
     <div class="space--sm"></div>
