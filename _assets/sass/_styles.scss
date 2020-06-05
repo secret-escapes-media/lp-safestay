@@ -15,31 +15,16 @@
 .card {
   display: block;
   position: relative;
-  &:before {
-    content: '';
-    display: block;
-    width: 100%;
+  @include bp($lg){
+    min-height: 440px;
   }
-  &--lg {
-    @include bp($lg){
-      &:before { padding-top: 125%; }
-    }
-    @include bp($xxl){
-      &:before { padding-top: 100%; }
-    }
-    @include bp($xxxl){
-      &:before { padding-top: 75%; }
-    }
+  @include bp($xxxl){
+    min-height: 380px;
   }
+
   &--sm {
     @include bp($lg){
-      &:before { padding-top: 125%; }
-    }
-    @include bp($xxl){
-      &:before { padding-top: 100%; }
-    }
-    @include bp($xxxl){
-      &:before { padding-top: 125%; }
+      min-height: 440px;
     }
   }
   &__icon {
@@ -50,16 +35,5 @@
   }
   &__content {
     text-align: center;
-    @include bp($lg){
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      z-index: $z-content-upper;
-      display: flex;
-      align-items: flex-start;
-      justify-content: center;
-    }
   }
 }
