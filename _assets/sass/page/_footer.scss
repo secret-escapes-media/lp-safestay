@@ -1,6 +1,7 @@
 // main footer for the microsite
 
 .site-footer {
+  body.fromApp & { display: none; }
   position: relative;
   background-color: $white;
 

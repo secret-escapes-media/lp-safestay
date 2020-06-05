@@ -15,15 +15,12 @@
 .card {
   display: block;
   position: relative;
-  @include bp($lg){
-    min-height: 440px;
-  }
   @include bp($xxxl){
     min-height: 380px;
   }
 
   &--sm {
-    @include bp($lg){
+    @include bp($xxxl){
       min-height: 440px;
     }
   }
@@ -36,4 +33,9 @@
   &__content {
     text-align: center;
   }
+}
+
+#dealsBanner {
+  display: block;
+  body.fromApp & { display: none; }
 }

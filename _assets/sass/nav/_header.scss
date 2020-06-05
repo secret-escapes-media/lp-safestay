@@ -20,6 +20,7 @@ $logo-bp: 600px;
 }
 
 .site-header {
+  body.fromApp & { display: none; }
   position: relative;
   width: 100%;
   background-color: $black;
