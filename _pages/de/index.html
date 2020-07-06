@@ -1,0 +1,131 @@
+---
+layout: default
+id: stay-safe
+locale: de
+
+
+title: Unsere Kriterien für Sicheres Reisen
+
+billboard:
+  title: >
+    <h1 class="h h--lg">Unsere Kriterien für Sicheres Reisen</h1>
+  subtitle: Secret Escapes bietet Ihnen mehr Planungssicherheit
+  content: >
+    <p class="p--xxl">Wir freuen uns sehr, Sie wieder mit inspirierenden Angeboten begrüßen zu dürfen. Da mit der Corona-Pandemie jedoch nach wie vor einige Unsicherheiten einhergehen, haben wir den folgenden Kriterienkatalog entwickelt - für sorgenfreies Reisen nach dem Lockdown.</p>
+
+
+
+large-items:
+
+  - id: policy
+    title: Gesund bleiben
+    content: >
+      <p class="p--lg">Wir stellen sicher, dass jedes unserer Hotels die von den örtlichen Behörden erlassenen Sicherheitsvorschriften erfüllt. Damit gehen möglicherweise einige Veränderungen einher, die im Sinne Ihrer Gesundheit und Ihres Wohlbefindens jedoch unerlässlich sind</p>
+
+  - id: refundable
+    title: Kostenlos stornierbar
+    content: >
+      <p class="p--lg">Als Reaktion auf die anhaltenden Reisebeschränkungen bieten wir Ihnen nun eine Reihe von Angeboten, die Sie bis zu 8 Tage vor Anreise aus beliebigen Gründen kostenlos stornieren können. Buchen Sie mit Zuversicht und bleiben Sie trotzdem flexibel, falls sich Pläne ändern</p>
+
+small-items:
+
+  - id: best-price
+    title: Alles zum Bestpreis
+    content: Unsere Angebote sind nach wie vor die preisgünstigsten auf dem Markt. Wir sind dafür bekannt, unseren Mitgliedern attraktive Angebote zu unschlagbaren Preisen zu machen – das gilt selbstverständlich auch für unsere kostenlos stornierbaren Angebote
+
+  - id: handpicked
+    title: Handverlesen
+    content: Wir haben unsere Hotelpartner stets mit größter Sorgfalt ausgewählt – und das soll auch so bleiben. Unsere Standards sollen nach wie vor den Erwartungen unserer Mitglieder gerecht werden
+
+  - id: transparency
+    title: Lückenlose Transparenz
+    content: Falls Kontaktbeschränkungen und Hygienebestimmungen gewisse Reiseziele beeinflussen, weisen wir Sie in unseren Angeboten darauf hin. Da Hotels ihre Richtlinien jedoch kontinuierlich weiterentwickeln, empfehlen wir Ihnen, sich vorab mit Ihrem Hotel in Verbindung zu setzen. So wissen Sie am Besten, was Sie erwarten können
+
+
+
+deals-banner:
+  title: Entdecken Sie jetzt unsere stornierbaren Angebote
+  content:
+  cta: Zu den Angeboten
+
+
+
+faq:
+  title: Häufig gestellte Fragen
+  content: Erhalten Sie in unseren FAQs weitere Informationen darüber, wie wir Ihnen gemeinsam mit unseren Hotelpartnern sicheres Reisen ermöglichen
+  cta: Weitere Informationen
+
+
+
+---
+
+<div class="bg--grey-lightest">
+{% include nav/header.html %}
+
+<div class="container vpad--lg">
+  {% include page/billboard.html %}
+
+  <div class="space--lg"></div>
+
+  <div class="row">
+  {% for item in page.large-items %}
+    <div class="col col--6">
+      <div class="bg--white depth--sm rounded--sm card card--lg">
+        <div class="card__content">
+          <div class="boxpad--md">
+            <img class="card__icon" src="{{site.img}}/{{page.id}}/{{item.id}}.svg" alt="{{item.title}} icon">
+
+            <h3 class="h h--xs">{{item.title}}</h3>
+            <p>{{item.content}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+  {% for item in page.small-items %}
+    <div class="col col--6 col--xxxl-4">
+      <div class="bg--white depth--sm rounded--sm card card--sm">
+        <div class="card__content">
+          <div class="boxpad--md">
+            <img class="card__icon" src="{{site.img}}/{{page.id}}/{{item.id}}.svg" alt="{{item.title}} icon">
+
+            <h3 class="h h--xxs">{{item.title}}</h3>
+            <p>{{item.content}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+  </div>
+
+  <div class="space--xxxl hideApp"></div>
+
+  <div class="hideApp img img--1-1 img--lg-3-2 img--xxl-21-9 depth--sm rounded--sm" style="background-image: url({{site.img}}/{{page.id}}/deals.jpg);">
+    <a href="{{locale.core-site}}" class="img__link"></a>
+    <div class="img__content">
+      <div class="width width--lg boxpad--lg text--center">
+        <h3 class="h h--lg">{{page.deals-banner.title}}</h3>
+        {% if page.deals-banner.content %}<p class="p--xl">{{page.deals-banner.content}}</p>{% endif %}
+        <div class="space--sm"></div>
+        <a href="{{locale.core-site}}" class="btn btn--primary">{{page.deals-banner.cta}}</a>
+      </div>
+    </div>
+    <div class="img__overlay"></div>
+  </div>
+
+  <div class="space--xxxl hideApp"></div>
+
+  <div class="width width--xl text--center hideApp">
+    <h3 class="h h--lg">{{page.faq.title}}</h3>
+    <p class="p--xxl">{{page.faq.content}}</p>
+    <div class="space--sm"></div>
+    <a href="{{locale.faq}}" class="btn btn--primary">{{page.faq.cta}}</a>
+  </div>
+
+  <div class="space--xxxl"></div>
+
+
+</div> <!-- /.container -->
+
+{% include nav/footer.html %}
+</div> <!-- /.bg--grey-lightest -->

@@ -1,0 +1,60 @@
+
+in-partnership: In partnership with
+
+core-site: https://www.secretescapes.se/aktuella-kampanjer
+core-favourites:
+  link: https://www.secretescapes.se/dina-favoriter
+  label: Dina favoriter
+core-nav:
+  - link: https://www.secretescapes.se/aktuella-kampanjer
+    label: Aktuella kampanjer
+  - link: https://www.secretescapes.se/how-it-works
+    label: Så funkar det
+  - link: https://www.secretescapes.se/presentkort-offer
+    label: Presentkort
+faq: https://www.secretescapes.com/faq
+
+social:
+  - link: http://www.facebook.com/SecretEscapes.se
+    id: facebook
+  - link: http://www.twitter.com/secret_escapes
+    id: twitter
+
+footer:
+  nav-col-1:
+    title: Secret Escapes
+    links:
+      - link: https://www.secretescapes.se/om-oss
+        label: Om oss
+      - link: https://www.secretescapes.se/kontakt
+        label: Kontakta oss
+      - link: http://careersnordics.secretescapes.com/
+        label: Lediga jobb
+      - link: https://www.secretescapes.se/vanliga-fragor
+        label: Vanliga frågor
+      - link: https://www.secretescapes.se/presentkort-offer
+        label: Presentkort
+      - link: https://www.secretescapes.se/aktiviteter/filter
+        label: Kollektioner
+  nav-col-2:
+    title: Collections
+    links:
+      - link: https://www.secretescapes.se/aktiviteter/filter
+        label: Aktivitetssemester
+      - link: https://www.secretescapes.se/all-inclusive/filter
+        label: All-inclusive
+      - link: https://www.secretescapes.se/strand/filter
+        label: Strand
+      - link: https://www.secretescapes.se/boutique/filter
+        label: Boutiquehotell
+      - link: https://www.secretescapes.se/city/filter
+        label: Cityvistelser
+      - link: https://www.secretescapes.se/landsbygd/filter
+        label: Lantliga vistelser
+  nav-col-3:
+    title:
+    links:
+      - link: https://www.secretescapes.se/integritetspolicy
+        label: Integritetspolicy
+      - link: https://www.secretescapes.se/regler-och-villkor
+        label: Regler och villkor
