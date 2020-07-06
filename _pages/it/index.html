@@ -1,0 +1,135 @@
+---
+layout: default
+id: stay-safe
+locale: it
+
+
+title: Il nostro programma Vacanze Sicure
+
+billboard:
+  title: >
+    <h1 class="h h--xl">Il nostro programma Vacanze Sicure</h1>
+  subtitle: Secret Escapes ti aiuta a viaggiare in totale sicurezza
+  content: >
+    <p class="p--xxl">Siamo felici di poterti ispirare di nuovo con idee di viaggio esclusive. Tuttavia, poiché restiamo tutti ancora preoccupati per il Covid-19, abbiamo messo in atto un programma Vacanze Sicure, per garantirti il massimo della sicurezza in viaggio, dopo il lockdown. </p>
+
+
+items-title: "Ecco come ci prendiamo cura di ogni vacanza:"
+
+
+large-items:
+
+  - id: policy
+    title: Linee guida locali sulla sicurezza
+    content: Nell'ambito della nostra politica Vacanze Sicure, stiamo collaborando con gli hotel partner per garantire che rispettino le norme di salute pubblica stabilite dalle autorità locali. Ciò potrebbe comportare un cambio nelle procedure tradizionali, ma è essenziale per noi che la tua sicurezza e il tuo benessere rimangano la massima priorità.
+
+  - id: refundable
+    title: Offerte 100% rimborsabili
+    content: In risposta alle continue incertezze legate agli spostamenti e ai viaggi, abbiamo selezionato una nuova gamma di offerte completamente rimborsabili che è possibile annullare fino a 8 giorni prima della partenza, per qualsiasi motivo. Ciò significa che puoi prenotare in anticipo con fiducia e rimanere flessibile se i piani cambiassero.
+
+small-items:
+
+  - id: best-price
+    title: Miglior prezzo garantito
+    content: Le offerte continuano a essere le migliori sul mercato. Abbiamo costruito la nostra reputazione offrendo ai nostri membri soggiorni esclusivi a prezzi imbattibili, e rimangono tali anche per le nostre offerte rimborsabili.
+
+  - id: handpicked
+    title: Selezionate con cura
+    content: Abbiamo sempre selezionato con cura i nostri hotel e continuiamo a farlo, rispettando gli altissimi standard dei nostri clienti.
+
+  - id: transparency
+    title: Massimo della trasparenza
+    content: Laddove il distanziamento sociale e le politiche anti Covid-19 incidano sulle nostre offerte, ti garantiamo il massimo della trasparenza nella descrizione delle offerte. Tuttavia, poiché gli hotel potrebbero cambiare le proprie politiche nel tempo, ti invitiamo a contattare l'hotel per avere tutti gli aggiornamenti in tempo reale e sapere cosa aspettarti dal tuo soggiorno.
+
+
+
+deals-banner:
+  title: Scopri ora la nostra sezione di offerte rimborsabili
+  cta: Clicca qui
+
+
+
+faq:
+  title: Domande frequenti
+  content: Vai nella nostra pagina delle Domande frequenti per scoprire tutto quello che facciamo con gli hotel partner per garantirti una vacanza sicura
+  cta: Leggi di più
+
+
+
+---
+
+<div class="bg--grey-lightest">
+{% include nav/header.html %}
+
+<div class="container vpad--lg">
+  {% include page/billboard.html %}
+
+  <div class="space--xl"></div>
+  <div class="text--center">
+  <h2 class="h h--sm">{{page.items-title}}</h2>
+  </div>
+  <div class="space--lg"></div>
+
+  <div class="row">
+  {% for item in page.large-items %}
+    <div class="col col--xxl-6">
+      <div class="bg--white depth--sm rounded--sm card card--sm">
+        <div class="card__content">
+          <div class="vpad--lg hpad--md">
+            <img class="card__icon" src="{{site.img}}/{{page.id}}/{{item.id}}.svg" alt="{{item.title}} icon">
+
+            <h3 class="h h--xs">{{item.title}}</h3>
+            <p>{{item.content}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+  {% for item in page.small-items %}
+    <div class="col col--xxl-6">
+      <div class="bg--white depth--sm rounded--sm card card--sm">
+        <div class="card__content">
+          <div class="vpad--lg hpad--md">
+            <img class="card__icon" src="{{site.img}}/{{page.id}}/{{item.id}}.svg" alt="{{item.title}} icon">
+
+            <h3 class="h h--xs">{{item.title}}</h3>
+            <p>{{item.content}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+
+    <div class="hideApp col col--xxl-6">
+      <div class="img img--4-3 depth--sm rounded--sm card card--sm" style="background-image: url({{site.img}}/{{page.id}}/deals.jpg);">
+        <a href="{{locale.core-site}}" class="img__link"></a>
+        <div class="img__content">
+          <div class="width width--lg boxpad--lg text--center">
+            <h3 class="h h--md">{{page.deals-banner.title}}</h3>
+            {% if page.deals-banner.content %}<p class="p--xl">{{page.deals-banner.content}}</p>{% endif %}
+            <div class="space--sm"></div>
+            <a href="{{locale.core-site}}" class="btn btn--primary">{{page.deals-banner.cta}}</a>
+          </div>
+        </div>
+        <div class="img__overlay"></div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="space--xxl hideApp"></div>
+
+  <div class="text--center width width--xl hideApp">
+    <h3 class="h h--lg">{{page.faq.title}}</h3>
+    <p class="p--xxl">{{page.faq.content}}</p>
+    <div class="space--sm"></div>
+    <a href="{{locale.faq}}" class="btn btn--primary">{{page.faq.cta}}</a>
+  </div>
+
+  <div class="space--xxl"></div>
+
+
+</div> <!-- /.container -->
+
+{% include nav/footer.html %}
+</div> <!-- /.bg--grey-lightest -->

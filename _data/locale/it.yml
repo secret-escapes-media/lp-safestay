@@ -1,0 +1,64 @@
+
+in-partnership: In partnership with
+
+core-site: https://it.secretescapes.com/offerte-in-corso
+core-favourites:
+  link: https://it.secretescapes.com/preferiti
+  label:  I miei preferiti
+core-nav:
+  - link: https://it.secretescapes.com/offerte-in-corso
+    label: Offerte in corso
+  - link: https://it.secretescapes.com/come-funziona
+    label: Come funziona
+  - link: https://it.secretescapes.com/magazine-it/
+    label: Magazine
+  - link: https://it.secretescapes.com/offerta-voucher
+    label: Buoni regalo
+faq: https://www.secretescapes.com/faq
+
+social:
+  - link: http://www.facebook.com/SecretEscapesItalia
+    id: facebook
+  - link: http://www.twitter.com/SecretEscapesIT
+    id: twitter
+
+footer:
+  nav-col-1:
+    title: Secret Escapes
+    links:
+      - link: https://it.secretescapes.com/chi-siamo
+        label: Chi siamo
+      - link: https://it.secretescapes.com/contattaci
+        label: Contattaci
+      - link: http://careers.secretescapes.it/
+        label: Offerte di lavoro
+      - link: https://it.secretescapes.com/domande-frequenti
+        label: Domande frequenti
+      - link: https://it.secretescapes.com/diventapartner
+        label: Diventa partner
+      - link: https://it.secretescapes.com/offerta-voucher
+        label: Buoni regalo
+
+  nav-col-2:
+    title: Collections
+    links:
+      - link: https://it.secretescapes.com/mare/filtra
+        label: Vacanze al mare
+      - link: https://it.secretescapes.com/boutique/filtra
+        label: Boutique hotel
+      - link: https://it.secretescapes.com/citta/filtra
+        label: City break
+      - link: https://it.secretescapes.com/campagna/filtra
+        label: Soggiorni in campagna
+      - link: https://it.secretescapes.com/benessere/filtra
+        label: Benessere & Spa
+      - link: https://it.secretescapes.com/weekend/filtra
+        label: Fughe per il weekend
+
+  nav-col-3:
+    title:
+    links:
+      - link: https://it.secretescapes.com/termini-e-condizioni
+        label: Termini e Condizioni
+      - link: https://it.secretescapes.com/normativa-privacy
+        label: Informativa sulla privacy

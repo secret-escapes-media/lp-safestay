@@ -1,16 +1,16 @@
 # Site settings
 title: Secret Escapes
-locale: de
+locale: it
 
 description: >
   Wir freuen uns sehr, Sie wieder mit inspirierenden Angeboten begrüßen zu dürfen. Da mit der Corona-Pandemie jedoch nach wie vor einige Unsicherheiten einhergehen, haben wir den folgenden Kriterienkatalog entwickelt - für sorgenfreies Reisen nach dem Lockdown.
 
 # file paths
 url:     "http://mp.secretescapes.com" # the base hostname & protocol for your site
-baseurl: "/de/2020/safe-stay-policy" # the subpath of your site, e.g. /blog/
-img:     "/de/2020/safe-stay-policy/_assets/img"
-css:     "/de/2020/safe-stay-policy/_assets/css"
-js:      "/de/2020/safe-stay-policy/_assets/js"
+baseurl: "/it/2020/safe-stay-policy" # the subpath of your site, e.g. /blog/
+img:     "/it/2020/safe-stay-policy/_assets/img"
+css:     "/it/2020/safe-stay-policy/_assets/css"
+js:      "/it/2020/safe-stay-policy/_assets/js"
 
 
 # Build settings
