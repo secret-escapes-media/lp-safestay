@@ -15,23 +15,19 @@ billboard:
 
 
 
-large-items:
+items:
 
   - id: policy
     title: Gesund bleiben
-    content: >
-      <p class="p--lg">Wir stellen sicher, dass jedes unserer Hotels die von den örtlichen Behörden erlassenen Sicherheitsvorschriften erfüllt. Damit gehen möglicherweise einige Veränderungen einher, die im Sinne Ihrer Gesundheit und Ihres Wohlbefindens jedoch unerlässlich sind</p>
+    content: Wir stellen sicher, dass jedes unserer Hotels die von den örtlichen Behörden erlassenen Sicherheitsvorschriften erfüllt. Damit gehen möglicherweise einige Veränderungen einher, die im Sinne Ihrer Gesundheit und Ihres Wohlbefindens jedoch unerlässlich sind
 
   - id: refundable
     title: Kostenlos stornierbar
-    content: >
-      <p class="p--lg">Als Reaktion auf die anhaltenden Reisebeschränkungen bieten wir Ihnen nun eine Reihe von Angeboten, die Sie bis zu 8 Tage vor Anreise aus beliebigen Gründen kostenlos stornieren können. Buchen Sie mit Zuversicht und bleiben Sie trotzdem flexibel, falls sich Pläne ändern</p>
-
-small-items:
+    content: Als Reaktion auf die anhaltenden Reisebeschränkungen bieten wir Ihnen nun eine Reihe von Angeboten, die Sie bis zu 8 Tage vor Anreise aus beliebigen Gründen kostenlos stornieren können. Buchen Sie mit Zuversicht und bleiben Sie trotzdem flexibel, falls sich Pläne ändern
 
   - id: best-price
-    title: Alles zum Bestpreis
-    content: Unsere Angebote sind nach wie vor die preisgünstigsten auf dem Markt. Wir sind dafür bekannt, unseren Mitgliedern attraktive Angebote zu unschlagbaren Preisen zu machen – das gilt selbstverständlich auch für unsere kostenlos stornierbaren Angebote
+    title: Attraktive Preise
+    content: Wir sind dafür bekannt, unseren Mitgliedern attraktive Angebote zu unschlagbaren Preisen zu machen – das gilt selbstverständlich auch für unsere kostenlos stornierbaren Angebote
 
   - id: handpicked
     title: Handverlesen
@@ -68,7 +64,7 @@ faq:
   <div class="space--lg"></div>
 
   <div class="row">
-  {% for item in page.large-items %}
+  {% for item in page.items %}
     <div class="col col--6">
       <div class="bg--white depth--sm rounded--sm card card--lg">
         <div class="card__content">
@@ -76,21 +72,7 @@ faq:
             <img class="card__icon" src="{{site.img}}/{{page.id}}/{{item.id}}.svg" alt="{{item.title}} icon">
 
             <h3 class="h h--xs">{{item.title}}</h3>
-            <p>{{item.content}}</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  {% endfor %}
-  {% for item in page.small-items %}
-    <div class="col col--6 col--xxxl-4">
-      <div class="bg--white depth--sm rounded--sm card card--sm">
-        <div class="card__content">
-          <div class="boxpad--md">
-            <img class="card__icon" src="{{site.img}}/{{page.id}}/{{item.id}}.svg" alt="{{item.title}} icon">
-
-            <h3 class="h h--xxs">{{item.title}}</h3>
-            <p>{{item.content}}</p>
+            <p class="p--lg">{{item.content}}</p>
           </div>
         </div>
       </div>
