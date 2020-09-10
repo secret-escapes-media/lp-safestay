@@ -22,15 +22,11 @@
 .card {
   display: block;
   position: relative;
-  @include bp($xxxl){
-    min-height: 380px;
+  @include bp($xxl){
+    display: flex;
+    min-height: 420px;
   }
 
-  &--sm {
-    @include bp($xxxl){
-      min-height: 440px;
-    }
-  }
   &__icon {
     width: 50%;
     max-width: 100px;
@@ -39,5 +35,8 @@
   }
   &__content {
     text-align: center;
+    @include bp($xxl){
+      align-self: center;
+    }
   }
 }
