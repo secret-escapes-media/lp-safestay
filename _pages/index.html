@@ -24,10 +24,8 @@ large-items:
     content: As part of our 'SafeStay' policy, we are working with our hotels to ensure that they comply with the public health regulations as laid down by their local authorities This could mean that some things need to be different for a while, but it is essential that your safety and wellbeing remains the top priority
 
   - id: refundable
-    title: Refundable
-    content: In response to ongoing travel uncertainty, we have a new range of fully refundable deals that you can cancel up to 8 days before departure, for any reason. This means you can book ahead with confidence and stay flexible if plans change
-
-small-items:
+    title: 100% Refundable
+    content: In response to ongoing travel uncertainty, we have introduced a new range of fully refundable deals. If you have booked a 'Refundable' hotel stay, you will be able to cancel up to 8 days before departure, for any reason. Deals marked 'Refundable Holidays' are also 100% refundable; however, please check your package details for further information on the terms of cancellation. This means you can book ahead with confidence and stay flexible if plans change
 
   - id: best-price
     title: Our incredible prices
@@ -73,22 +71,8 @@ faq:
 
   <div class="row">
   {% for item in page.large-items %}
-    <div class="col col--6">
+    <div class="col col--xxl-6">
       <div class="bg--white depth--sm rounded--sm card card--lg">
-        <div class="card__content">
-          <div class="vpad--lg hpad--md">
-            <img class="card__icon" src="{{site.img}}/{{page.id}}/{{item.id}}.svg" alt="{{item.title}} icon">
-
-            <h3 class="h h--xs">{{item.title}}</h3>
-            <p>{{item.content}}</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  {% endfor %}
-  {% for item in page.small-items %}
-    <div class="col col--6 col--xxxl-4">
-      <div class="bg--white depth--sm rounded--sm card card--sm">
         <div class="card__content">
           <div class="vpad--lg hpad--md">
             <img class="card__icon" src="{{site.img}}/{{page.id}}/{{item.id}}.svg" alt="{{item.title}} icon">
