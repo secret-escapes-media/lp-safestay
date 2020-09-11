@@ -1,0 +1,15 @@
+
+in-partnership: In partnership with
+
+core-site: https://dk.secretescapes.com/current-sales
+core-favourites:
+  link: https://dk.secretescapes.com/dine-favoritter
+  label: Dine favoritter
+core-nav:
+  - link: https://dk.secretescapes.com/nuvaerende-salg
+    label: Aktuelle tilbud
+  - link: https://dk.secretescapes.com/how-it-works
+    label: Sådan fungerer det
+  - link: https://dk.secretescapes.com/gavekort
+    label: Gavekort
+faq: https://dk.secretescapes.com/faq
