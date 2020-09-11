@@ -1,0 +1,11 @@
+
+
+core-site: https://nl.secretescapes.com/aanbiedingen
+core-favourites:
+  link: https://nl.secretescapes.com/mijn-favorieten
+  label: Mijn favorieten
+core-nav:
+  - link: https://nl.secretescapes.com/aanbiedingen
+    label: Actuele aanbiedingen
+faq: https://nl.secretescapes.com/faq
+
