@@ -1,0 +1,18 @@
+
+
+core-site: https://no.secretescapes.com/aktuelle-tilbud
+core-favourites:
+  link: https://no.secretescapes.com/mine-favoritter
+  label: Mine favoritter
+core-nav:
+  - link: https://no.secretescapes.com/aktuelle-tilbud
+    label: Aktuelle Angebote
+  - link: https://no.secretescapes.com/how-it-works
+    label: Slik funker det
+  - link: https://no.secretescapes.com/gavekort-tilbud
+    label: Gavekort
+faq: https://no.secretescapes.com/faq
+
+
+
+
